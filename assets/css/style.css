@@ -1,0 +1,502 @@
+html{
+	scroll-behavior: smooth;
+
+
+}
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	
+
+
+}
+
+
+
+#navbar{
+	
+	position: fixed;
+	background-color: white;
+	height: 100vh;
+	width: 13%;
+	visibility: visible;
+	display: block;
+}
+
+#nav-about:hover
+{
+
+	background-color: #6897BB
+
+
+
+}
+
+#nav-skills:hover{
+	background-color: #F6546A;
+}
+
+#nav-works:hover{
+	background-color: #3CA392;
+}
+
+#nav-contact:hover{
+	background-color: #A5B27C;
+}
+
+#navbar div a img{
+	width: 100px;
+	height: 100px;
+}
+
+#navbarNav{
+	height: 100%;
+	width: 100%;
+}
+
+
+#navbarNav div{
+	height: 150px;
+	width: 150px;
+	margin: 20px 20px 20px 0px;
+}
+
+#navbarNav div a{
+	height: 100%;
+	width: 100%;
+
+}
+
+#navbar2{
+	display: none;
+	visibility: hidden;
+
+}
+
+
+
+#navbar a{
+	text-decoration: none;
+	color: black;
+	
+}
+
+
+#navbar2{
+	height: 75px;
+	background: white;
+	position: fixed;
+	top: 82%;
+	left: 8%;
+	z-index: 999;
+	margin: 0 auto;
+}
+
+#navbarNav2 div{
+	float: left;
+	height: 50px;
+	width: 50px;
+	font-size: 12px;
+	margin: 2px;
+	border: 1px solid black;
+}
+
+#navbarNav2 div a img{
+	margin: 0 auto;
+	display: block;
+	height: 50px;
+	width: 50px;
+}
+
+
+
+#contents{
+	margin-left: 13%;
+	width: 87%;
+	height: 100vh;
+	background-color: black;
+
+}
+
+#intro{
+	height: 100vh;
+	width: 100%;
+	color: black;
+	border: 30px solid black;
+	background-color: white
+
+
+}
+
+#intro:hover ~ #icon-home4{
+	display: none;
+	visibility: hidden;
+}
+#img-home img{
+	height: 100px;
+	width: 100px;
+	
+
+}
+
+#hello{
+	font-size: 70px;
+	
+	font-weight: bold;
+	padding-top: 15%;
+	
+}
+
+#kevin{
+	margin-top:10%
+
+}
+
+#about{
+	height: 100vh;
+	width: 100%;
+	border: 30px solid #6897BB;
+}
+
+#me{
+
+}
+
+#me img{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+#description{
+	margin: 5% 5%;
+}
+
+#skills{
+	height: 100vh;
+	width: 100%;
+	border: 30px solid #F6546A;
+}
+
+#specialties{
+	margin-top: 10%;
+}
+
+#works{
+	height: 100vh;
+	width: 100%;
+	border: 30px solid #3CA392;
+}
+
+#works .card{
+	margin-left: 31%;
+	margin-top: 7%;
+	border: 1px solid black;
+	width: 30rem;
+
+}
+
+#body-travelize{
+	background-color: rgba(0,0,0,.5);
+}
+
+#contact{
+	height: 100vh;
+	width: 100%;
+	border: 30px solid #A5B27C;
+	position: relative;
+}
+
+#contact-h2-1{
+	font-size: 4em;
+}
+
+#contact button{
+	margin: 0 auto;
+	display: block;
+	border-radius: 0;
+
+}
+
+#contact button a{
+	text-decoration: none;
+	color: white;
+}
+
+#work-together{
+	padding-top: 2%;
+}
+
+#social-text{
+	margin-top: 20%;
+	
+}
+
+
+
+#social a{
+	margin-left: 20px;
+	margin-right: : 20px;
+
+}
+
+#social a img{
+	height: 50px;
+	width: 50px;
+}
+
+#home4{
+	height: 100px;
+	width: 100px;
+
+}
+
+#icon-home4{
+	position: fixed;
+	bottom: 5%;
+	left: 90%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 480px) {
+
+	#navbar{
+		display: none;
+		visibility: hidden;
+	}
+
+	#contents{
+		margin: 0;
+		width: 100%;
+		position: relative;
+	}
+
+	#me img{
+		height: 100px;
+		width: 100px;
+	}
+
+	#description p{
+		font-size: 16px;
+	}
+
+	#skills h2{
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	#specialties img{
+		height: 100px;
+		width: 100px;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+	#works h2{
+
+		font-weight: bold;
+		font-size: 20px;
+
+	}
+
+	#works .card{
+		width: 15rem;
+		margin: 0 auto;
+	}
+
+	#contact h2{
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	#icon-home4{
+		display: none;
+		visibility: hidden;
+	}
+
+	#navbar2{
+		visibility: visible;
+		display: block;
+	}
+
+	#nav-about2{
+		
+		padding: 0;
+	}
+	
+	#nav-skills2{
+		
+		padding: 0;
+	}
+	
+	#nav-works2{
+		
+		padding: 0;
+	}
+	
+	#nav-contact2{
+		
+		padding: 0;
+	}
+	
+	#nav-home2{
+		
+		padding: 0;
+	}
+
+	#navbar2{
+		margin: 5px;
+		left: 10%;
+		background-color: transparent;
+	}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width : 768px) and (max-width: 992px){
+
+
+	#navbar{
+		display: none;
+		visibility: hidden;
+	}
+
+	#contents{
+		margin: 0;
+		width: 100%;
+		position: relative;
+	}
+
+	#me img{
+		height: 200px;
+		width: 200px;
+	}
+
+	#description p{
+		font-size: 20px;
+	}
+
+	#skills h2{
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	#specialties img{
+		height: 200px;
+		width: 200px;
+		display: inline-block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+	#works h2{
+
+		font-weight: bold;
+		font-size: 25px;
+		margin-bottom: 10%;
+
+	}
+
+	#works .card{
+		width: 25rem;
+		margin: 0 auto;
+	}
+
+	#contact h2{
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	#icon-home4{
+		display: none;
+		visibility: hidden;
+	}
+
+	#navbar2{
+		visibility: visible;
+		display: block;
+	}
+
+	#nav-about2{
+		
+		padding: 0;
+	}
+	
+	#nav-skills2{
+		
+		padding: 0;
+	}
+	
+	#nav-works2{
+		
+		padding: 0;
+	}
+	
+	#nav-contact2{
+		
+		padding: 0;
+	}
+	
+	#nav-home2{
+		
+		padding: 0;
+	}
+
+	#navbar2{
+		margin: 5px;
+		left: 30%;
+		background-color: transparent;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
