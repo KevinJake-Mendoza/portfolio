@@ -16,7 +16,7 @@ html{
 
 
 
-#navbar{
+/*#navbar{
 	
 	position: fixed;
 	background-color: white;
@@ -110,6 +110,23 @@ html{
 	display: block;
 	height: 50px;
 	width: 50px;
+}*/
+
+.content{
+	height: 90vh;
+	width: 100%;
+}
+
+#bottom{
+	height: 1vh;0
+	border: 2px solid black;
+	padding: 0;
+	margin:0;
+}
+
+.imgnav{
+	height: 55px;
+	width: 55px;
 }
 
 
@@ -117,13 +134,13 @@ html{
 #contents{
 	margin-left: 13%;
 	width: 87%;
-	height: 100vh;
+	/*height: 100vh;*/
 	background-color: black;
 
 }
 
 #intro{
-	height: 100vh;
+	/*height: 100vh;*/
 	width: 100%;
 	color: black;
 	border: 30px solid black;
@@ -158,8 +175,8 @@ html{
 }
 
 #about{
-	height: 100vh;
-	width: 100%;
+	/*height: 100vh;
+*/	width: 100%;
 	border: 30px solid #6897BB;
 }
 
@@ -179,7 +196,7 @@ html{
 }
 
 #skills{
-	height: 100vh;
+	/*height: 100vh;*/
 	width: 100%;
 	border: 30px solid #F6546A;
 }
@@ -191,25 +208,25 @@ html{
 }
 
 #works{
-	height: 100vh;
+	/*height: 100vh;*/
 	width: 100%;
 	border: 30px solid #3CA392;
 }
 
-#works .card{
+/*#works .card{
 	margin-left: 31%;
 	margin-top: 7%;
 	border: 1px solid black;
 	width: 30rem;
 
-}
+}*/
 
 #body-travelize{
 	background-color: rgba(0,0,0,.5);
 }
 
 #contact{
-	height: 100vh;
+	/*height: 100vh;*/
 	width: 100%;
 	border: 30px solid #A5B27C;
 	/*position: relative;*/
@@ -283,10 +300,81 @@ html{
 
 
 
+@media only screen and (min-width : 320px){
+	.nav-link{
+		margin-top: 5px;
+		padding:0;
+
+	}
+
+	.imgnav{
+	height: 45px;
+	width: 45px;
+	}
+
+	#hello{
+		font-size: 55px;
+	}
+
+	#intro h2{
+		font-size: 30px;
+	}
+
+	#skills h2{
+		font-size: 25px;
+	}
+
+	#works h2{
+		font-size: 25px;
+	}
+
+	#specialties img {
+		height: 50px;
+		width: 50px;
+	}
+	#me img{
+		height: 150px;
+		width: 150px;
+	}
+
+	#description p{
+		font-size: 12px;
+	}
+
+	#card div{
+		min-height: 100px;
+	}
+
+	.card-title{
+		font-size: 14px;
+	}
+
+	.card-body{
+		font-size: 12px;
+	}
+
+	#contact h2{
+		font-size: 2rem;
+	}
+
+	#social-text{
+		font-size: 1rem;
+	}
+}
 
 
+@media only screen and (min-width : 321px) and (max-width : 480px) {
 
-@media only screen and (max-width : 480px) {
+	.nav-link{
+		margin-top: 10px;
+		padding:0;
+
+	}
+
+	.imgnav{
+	height: 50px;
+	width: 50px;
+	}
 
 	#navbar{
 		display: none;
@@ -394,6 +482,17 @@ html{
 
 
 @media only screen and (min-width : 768px) and (max-width: 992px){
+
+	.nav-link{
+		margin-top: 20px;
+		padding:0;
+
+	}
+
+	.imgnav{
+	height: 60px;
+	width: 60px;
+	}
 
 
 	#navbar{
