@@ -118,8 +118,7 @@ html{
 }
 
 #bottom{
-	height: 1vh;0
-	border: 2px solid black;
+	height: 10vh;
 	padding: 0;
 	margin:0;
 }
@@ -144,6 +143,7 @@ html{
 	width: 100%;
 	color: black;
 	border: 30px solid black;
+	/*border-radius: 20px;*/
 	background-color: white
 
 
@@ -178,6 +178,7 @@ html{
 	/*height: 100vh;
 */	width: 100%;
 	border: 30px solid #6897BB;
+	/*border-radius: 20px;*/
 }
 
 #me{
@@ -199,6 +200,7 @@ html{
 	/*height: 100vh;*/
 	width: 100%;
 	border: 30px solid #F6546A;
+	/*border-radius: 20px;*/
 }
 
 #specialties{
@@ -211,6 +213,7 @@ html{
 	/*height: 100vh;*/
 	width: 100%;
 	border: 30px solid #3CA392;
+	/*border-radius: 20px;*/
 }
 
 /*#works .card{
@@ -229,6 +232,7 @@ html{
 	/*height: 100vh;*/
 	width: 100%;
 	border: 30px solid #A5B27C;
+	/*border-radius: 20px;*/
 	/*position: relative;*/
 }
 
@@ -253,7 +257,7 @@ html{
 }
 
 #social-text{
-	margin-top: 20%;
+	margin-top: 10%;
 	
 }
 
@@ -300,7 +304,7 @@ html{
 
 
 
-@media only screen and (min-width : 320px){
+@media only screen and (max-width : 360px){
 	.nav-link{
 		margin-top: 5px;
 		padding:0;
@@ -311,6 +315,14 @@ html{
 	height: 45px;
 	width: 45px;
 	}
+
+	#works div div a{
+		height: 80px;
+	}
+	#works div div a img{
+		height: 77px;
+	}
+
 
 	#hello{
 		font-size: 55px;
@@ -325,7 +337,9 @@ html{
 	}
 
 	#works h2{
-		font-size: 25px;
+		font-size: 15px;
+		border: 5px;
+		margin:5px;
 	}
 
 	#specialties img {
@@ -353,6 +367,10 @@ html{
 		font-size: 12px;
 	}
 
+	.card div{
+		height: 75px;
+	}
+
 	#contact h2{
 		font-size: 2rem;
 	}
@@ -363,7 +381,7 @@ html{
 }
 
 
-@media only screen and (min-width : 321px) and (max-width : 480px) {
+@media only screen and (min-width : 361px) and (max-width : 480px) {
 
 	.nav-link{
 		margin-top: 10px;
@@ -374,6 +392,13 @@ html{
 	.imgnav{
 	height: 50px;
 	width: 50px;
+	}
+
+	#works div div a{
+		height: 135px;
+	}
+	#works div div a img{
+		height: 133px;
 	}
 
 	#navbar{
@@ -481,7 +506,7 @@ html{
 
 
 
-@media only screen and (min-width : 768px) and (max-width: 992px){
+@media only screen and (min-width : 768px) and (max-width: 1023px){
 
 	.nav-link{
 		margin-top: 20px;
@@ -492,6 +517,13 @@ html{
 	.imgnav{
 	height: 60px;
 	width: 60px;
+	}
+
+	#works div div a{
+		height: 210px;
+	}
+	#works div div a img{
+		height: 207px;
 	}
 
 
@@ -594,27 +626,13 @@ html{
 	}
 
 
+
+
 }
 
 
-@media only screen and (max-width : 320px) {
 
-	#navbarNav2 div {
 
-		height: 40px;
-		width: 40px;
-
-	}
-
-	#navbarNav2 div a img{
-
-		height: 40px;
-		width: 40px;
-		padding: 3px;
-
-	}
-
-}
 
 
 

@@ -8,6 +8,9 @@
 	<!-- favicon -->
 
 	<link rel="shortcut icon" type="image/png" href="assets/images/me.jpg"/>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+
 
 	<title> Kevin Jake Mendoza | Portfolio </title>
 	<!-- google fonts -->
@@ -47,10 +50,6 @@
 			      	<a id="nav-about" class="nav-link text-center" href="#about" onclick="changeAbout()"><img src="assets/images/about.png" class="imgnav img-fluid "></a>
 			    </div>
 
-			    <div class="col-md-2 col-3">		
-			      	<a id="nav-skills" class="nav-link text-center" href="#skills" onclick="changeSkills()"><img src="assets/images/skills.png" class="imgnav img-fluid"></a>
-			    </div>
-
 			    <div class="col-md-2 col-3">
 			      			
 			      	<a id="nav-works" class="nav-link text-center" href="#works" onclick="changeWorks()"><img src="assets/images/works.png" class="imgnav img-fluid"></a>
@@ -59,7 +58,9 @@
 			    <div class="col-md-2 col-3">		
 			      	<a id="nav-contact" class="nav-link text-center" href="#contact" onclick="changeContact()"><img src="assets/images/contact.png" class="imgnav img-fluid" ></a>
 			    </div>
-
+			    <div class="col-md-2 col-3">		
+			      	<a id="nav-skills" class="nav-link text-center" href="#" onclick="changeSkills()"><img src="assets/images/home.png" class="imgnav img-fluid"></a>
+			    </div>
 		  	</div> 
 		</div>
 <!-- 
@@ -149,56 +150,78 @@
 
 		function changeSkills() {
 			document.getElementById('right').innerHTML=`
-			<div id="skills" class="content p-0 animated fadeIn slower">
-
-				<h2 class="my-4 display-4 text-center">HERE ARE MY SPECIALTIES</h2>
-
-				<div id="specialties" class="text-center">
-					<img src="assets/images/html.png">
-					<img src="assets/images/css.png">
-					<img src="assets/images/bootstrap.png">
-					<img src="assets/images/javascript.png">
-					<img src="assets/images/php.png">
-					<img src="assets/images/mysql.png">
+			<div id="right"  class="col-md-12 p-0 animated fadeIn slower">
+		  		<div id="intro" class="content p-0 col-12">
+					<h1 id="hello" class="text-center">HELLO!</h1>
+					<h2 id="kevin" class="text-center">I'M <strong>KEVIN JAKE MENDOZA</strong> </h2>	
+					<h2 class="text-center">AND I'M A <strong>FULL STACK WEB DEVELOPER</strong></h2>
 				</div>
-				
-			</div>
+		  	</div>
 			`
 		}
 
 		function changeWorks() {
 			document.getElementById('right').innerHTML=`
 			<div id="works" class="content p-0 animated fadeIn slower">
-
-				<h2 class="my-4 text-center display-4">TAKE A LOOK AT MY WORK</h2>
-
-				<div id="card" class="row">
-					<div  class="col-6">
-						<div class="card text-center">
-		  					<img class="card-img-top img-fluid" src="assets/images/capstone.png" alt="travelize">
-		  					<div class="col-md-12 p-1">
-		  						<div id="body-travelize" class="card-body p-1">
-			    					<h5 class="card-title">Travelize</h5>
-			    					<p class="card-text text-center">Travelize is a travel website that will help people to know more about their next destinations.</p>
-			    					<a href="https://kevinjake-mendoza.github.io/travelize/index.html" class="btn btn-primary mb-1" target="_blank">See more</a>
-		  						</div>
-		  					</div>
+			
+				<h2 class="my-1 text-center display-4">TAKE A LOOK AT MY WORK</h2>
+				<div class="row">
+						<div  class="col-12 col-lg-4">
+							<a href="https://kevinjake-mendoza.github.io/travelize/" class="btn mb-1" target="_blank">
+			  					<img class="card-img-top img-fluid" src="assets/images/capstone.png" alt="travelize">
+			  				</a>
+			  				<div class="text-center display-5">
+			  					<i class="devicon-linux-plain"></i>
+			  					<i class="devicon-gitlab-plain-wordmark colored"></i>
+								<i class="devicon-github-plain colored"></i>
+								<i class="devicon-html5-plain colored"></i>
+								<i class="devicon-css3-plain-wordmark colored"></i>
+								<i class="devicon-bootstrap-plain-wordmark colored"></i>
+			  				</div>
 						</div>
-					</div>
 
-					<div class="col-6">
-						<div class="card text-center " >
-		  					<img class="card-img-top img-fluid" src="assets/images/hotel.png" alt="travelize">
-		  					<div class="col-md-12 p-1">
-		  						<div id="body-travelize" class="card-body p-1">
-			    					<h5 class="card-title">Perfect Hotel</h5>
-			    					<p class="card-text text-center">This is a Hotel Booking Website</p>
-			    					<a href="https://ancient-beyond-30518.herokuapp.com" class="btn btn-primary mb-1" target="_blank">See more</a>
-		  						</div>
-		  					</div>
-						</div>
-					</div>
-				</div>		
+						<div class="col-lg-4 col-12">
+							<a href="https://immense-brushlands-62025.herokuapp.com/" class="btn mb-1" target="_blank">
+			  					<img class="card-img-top img-fluid" src="assets/images/podmsi.png" alt="travelize">
+			  				</a>
+			  				<div class="text-center display-5">
+			  					<i class="devicon-linux-plain"></i>
+			  					<i class="devicon-gitlab-plain-wordmark colored"></i>
+								<i class="devicon-github-plain colored"></i>
+								<i class="devicon-html5-plain colored"></i>
+								<i class="devicon-css3-plain-wordmark colored"></i>
+								<i class="devicon-bootstrap-plain-wordmark colored"></i>
+								<i class="devicon-javascript-plain colored"></i>
+								<i class="devicon-php-plain colored"></i>
+								<i class="devicon-php-plain colored"></i>
+								<i class="devicon-heroku-original colored"></i>
+								<i class="devicon-laravel-plain-wordmark colored"></i>
+			  				</div>
+			  			</div>
+
+						<div class="col-lg-4 col-12">
+							<a href="https://ancient-beyond-30518.herokuapp.com" class="btn mb-1" target="_blank">
+			  					<img class="card-img-top img-fluid" src="assets/images/hotel.png" alt="travelize">
+			  				</a>
+			  				<div class="text-center display-5">
+			  					<i class="devicon-linux-plain"></i>
+			  					<i class="devicon-gitlab-plain-wordmark colored"></i>
+								<i class="devicon-github-plain colored"></i>
+								<i class="devicon-html5-plain colored"></i>
+								<i class="devicon-css3-plain-wordmark colored"></i>
+								<i class="devicon-bootstrap-plain-wordmark colored"></i>
+								<i class="devicon-javascript-plain colored"></i>
+								<i class="devicon-php-plain colored"></i>
+								<i class="devicon-heroku-original colored"></i>
+								<i class="devicon-laravel-plain-wordmark colored"></i>
+								<i class="devicon-mongodb-plain-wordmark colored"></i>
+								<i class="devicon-express-original colored"></i>
+								<i class="devicon-nodejs-plain colored"></i>
+			  				</div>
+						</div>	
+				</div>
+				
+
 			</div>
 		`}
 
